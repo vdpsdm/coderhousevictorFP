@@ -672,7 +672,7 @@ main {
     background-image: url(../img/girl-dog.jpg);
     background-repeat: no-repeat;
     background-size: 100% 600px;
-    height: 400px;
+    height: 600px;
     border: 1px solid black;
     padding: 100px 100px;
     grid-area: mainUs;
