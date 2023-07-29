@@ -1,0 +1,1305 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body {
+    font-family: 'Quicksand';
+}
+
+
+header {
+    background-color: rgb(238, 216, 124);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    position: sticky;
+    top: 0;
+    min-height: 70px;
+    width: auto;
+    grid-area: header;
+ 
+}
+
+
+.logoHome {
+    list-style: none;
+    display: inline-block;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    
+}
+
+.logoAdogsjoy {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.sublogoAdogsjoy {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.858);
+    
+}
+
+.headerTopright li {
+    width: 70px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+
+    
+}
+
+
+
+
+
+
+main {
+    background-image: url(../img/cute-puppy-dachshund-dog-posing-isolated-white-background.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    width: auto;
+    grid-area: main;
+}
+
+.mainMenu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 5px;
+
+    
+    
+}
+
+.mainMenu li{
+    list-style: none;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0px 10px;
+
+
+}
+
+.mobileMenu{
+   display: none;
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
+
+.mainMenu a{
+    
+    text-decoration: none;
+    color:  black;
+}
+
+.chatIcon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+.mainText {
+    display: flex;
+    justify-content: flex-start;
+    
+    padding: 10px 50px;
+
+}
+
+.mainText li{
+    list-style: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0px 5px;
+    color: rgb(236, 203, 71);
+
+
+
+}
+
+.buttonApply {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 216, 124);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 1rem;
+}
+
+.mainTexttwo {
+    color: black;
+    padding: 0px 60px;
+}
+
+.mainTextthree {
+    margin-top: 275px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: rgb(238, 216, 124);
+    font-size: 1.5rem;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.mainThree {
+    
+    background-image: url(../img/vecteezy_artificial-grass-texture-banner_3086563.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-evenly;;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0px 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    grid-area: mainThree;
+    
+}
+
+
+
+.leftMain {
+    width: 25px;
+    height: 25px;
+    background-color:  rgb(238, 216, 124);
+    border: 1px solid black;
+
+
+
+
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.photoOne {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 25%;
+    display: flex;
+    background-image: url(../img/erda-estremera-JBrbzg5N7Go-unsplash.jpg);
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+
+.photoOne a {
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(238, 216, 124);
+    
+
+}
+
+.photoTwo {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 25%;
+    display: flex;
+    background-image: url(../img/milli-2l0CWTpcChI-unsplash.jpg);
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.photoTwo a {
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(238, 216, 124);
+
+}
+
+.photoThree {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 25%;
+    display: flex;
+    background-image: url(../img/baptist-standaert-mx0DEnfYxic-unsplash.jpg);
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.photoThree a {
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(238, 216, 124);
+
+}
+
+.photoFour {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 25%;
+
+    display: flex;
+    background-image: url(../img/camylla-battani-AoqgGAqrLpU-unsplash.jpg);
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.photoFour a {
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(238, 216, 124);
+
+}
+
+.rightMain {
+    width: 25px;
+    height: 25px;
+    background-color:  rgb(238, 216, 124);
+    border: 1px solid black;
+
+
+
+
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.mainFour {
+    background-image: url(../img/Presentation1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    min-height: 500px;
+    text-align: center;
+    grid-area: mainFour;
+
+}
+
+.mainFourtx1 {
+
+    font-size: 2rem;
+    padding-top: 40px;
+
+}
+
+.mainFourtx2 {
+
+    font-size: 1.2rem;
+    padding: 0px 0px;
+
+}
+
+.mainFourAProcess {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.one {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+}
+
+.two {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.three {
+    width: 25px;
+    height: 25px;
+    text-align: center; 
+}
+
+.four {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.adoptform {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.meet {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.dog {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.mainFourAProcess li {
+    list-style: none;
+    width:150px ;
+    height: 35px;
+    text-align: center;
+
+}
+
+.listYellow {
+    color: rgb(238, 216, 124);
+    font-size: 1.2rem;
+    padding-top: 20px;
+
+}
+
+.mainFourbutton {
+    margin: 100px;
+ 
+}
+
+.mainFourbutton a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 216, 124);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.mainFive {
+    background-image: url(../img/Presentation2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    min-height: 500px;
+    text-align: center;
+    grid-area: mainFive;
+}
+
+.volunteer {
+    width: 50px;
+    height: 50px;
+    padding-top: 35px;
+}
+
+.mainFivetx1 {
+    font-size: 2rem;
+}
+
+.mainFivetx2 {
+    font-size: 1.2rem;
+}
+
+.mainFiveVolunteer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.mainFiveVolunteer p {
+    display: inline-block
+}
+
+.volTx1 {
+    text-align: justify;
+    font-size: 1rem;
+    width: 150px;
+ 
+
+}
+
+.volTx2 {
+    text-align: justify;
+    font-size: 1rem;
+    width: 150px;
+ 
+
+}
+
+.volunteeringImg {
+    width: 500px;
+    height: 350px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+}
+
+.mainFivetx3 {
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.mainFivebutton {
+    margin: 15px;
+ 
+}
+
+.mainFivebutton a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 216, 124);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+.mainServices {
+    background-image: url(../img/Presentation3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1500px;
+    min-height: 1350px;
+    text-align: center;
+    grid-area: mainServices;
+
+}
+
+.adoptingServices {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 35%;
+    height: 200px;
+
+
+}
+
+
+.adoptingServices li {
+    list-style: none;
+}
+
+.rescueServices {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 20%;
+    height: 200px;
+
+
+}
+
+
+
+.rescueServices li {
+    list-style: none;
+}
+
+.deliverServices {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 10%;
+    height: 250px;
+
+
+}
+
+
+.deliverServices li {
+    list-style: none;
+}
+
+.findServices {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 10%;
+    height: 250px;
+
+
+}
+
+
+.findServices li {
+    list-style: none;
+}
+
+.reportServices {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 20%;
+    height: 200px;
+
+
+}
+
+
+.reportServices li {
+    list-style: none;
+}
+
+.trainServices {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 35%;
+    height: 200px;
+
+
+}
+
+
+.trainServices li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+.subtitleServices {
+    color: rgb(238, 216, 124);
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.contentServices {
+    color: black;
+    font-size: 1rem;
+    width: 200px;
+    text-align: justify;
+    
+}
+
+.buttonServices {
+    margin-top: 50px;
+}
+
+.buttonServiceslink {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 216, 124);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.servicesImg {
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.mainUs {
+    background-image: url(../img/girl-dog.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 100px 100px;
+    grid-area: mainUs;
+
+}
+
+
+
+
+
+.subtitleUs {
+    font-size: 2rem;
+    text-align: start;
+    color: rgb(238, 216, 124);
+    font-weight: bold;
+}
+
+.contentUs {
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 350px;
+    padding: 10px 0px;
+}
+
+.textUs {
+    margin-top: 70px;
+    font-size: 2rem;
+    text-align: start;
+    color: black;
+    margin-left: 31%;
+}
+
+.mainbuttonUs{
+    text-align: start;
+    margin-top: 15px;
+    margin-left: 30%;
+}
+.buttonUs {
+    
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 216, 124);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+
+.mainUstwo {
+    min-height: 900px;
+    background-image: url(../img/happy-hipster-guy-glasses-pet-dog-smiling-cute-black-pug-enjoy-spending-time-with-owner-looki.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    grid-area: mainUstwo;
+
+
+
+}
+
+.blockUstwo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.subtitleUstwo {
+    padding-top: 135px;
+    font-size: 2rem;
+    color: rgb(238, 216, 124);
+    text-align: end;
+
+
+}
+
+.contentUstwo {
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 370px;
+    padding: 10px 0px;
+}
+
+
+.rowImgUs1 {
+    display: flex;
+    justify-content: flex-start;;
+    gap: 5%;
+    align-items: center;
+    height: 200px;
+    padding: 0px 10%;
+
+}
+
+.rowoneImgUs{
+        
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+
+ 
+}
+
+.rowtwoImgUs{
+        
+    display: flex;
+    justify-content: center;;
+    align-items: center; 
+
+ 
+}
+
+.rowImgUs2 {
+    display: flex;
+    justify-content: flex-start;;
+    gap: 5%;
+    align-items: center;
+    height: 200px;
+    padding: 0px 2%;
+
+}
+
+.rowthreeImgUs{
+        
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+
+ 
+}
+
+.rowfourImgUs{
+        
+    display: flex;
+    justify-content: center;;
+    align-items: center; 
+
+ 
+}
+
+.rowImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 100px;
+    border: 1px solid black ;
+    object-fit: cover;
+}
+
+
+
+
+.rowonePosUs {
+    text-align: start;
+    font-size: 0.6rem;
+    padding: 5px 15px;
+}
+
+.rowoneBox {
+    display: inline-block;
+    list-style: none;
+
+    font-size: 1.5rem;
+    text-align: start;
+
+    
+}
+
+.rowoneBox li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+
+}
+
+.rowoneimgBox {
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.rowoneNameUs{
+    cursor: pointer;
+}
+
+
+
+
+
+
+.mainBepart {
+    background-image: url(../img/Presentation4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1500px;
+    min-height: 1350px;
+    grid-area: mainBepart;
+}
+
+.donatingBepart {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%;
+    padding-left: 5%;
+    
+    padding-bottom: 10%;
+ 
+
+
+}
+
+
+.donatingBepart li {
+    list-style: none;
+}
+
+.volunteeringBepart {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2%;
+    padding-right: 7%;
+    
+    padding-bottom: 10%;
+
+
+}
+
+
+.volunteeringBepart li {
+    list-style: none;
+}
+
+.sponsorBepart {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%;
+    padding-left: 5%;
+    
+    padding-bottom: 10%;
+ 
+
+
+}
+
+
+.sponsorBepart li {
+    list-style: none;
+}
+
+.joinBepart {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2%;
+    padding-right: 7%;
+    
+    padding-bottom: 10%;
+
+
+}
+
+
+.joinBepart li {
+    list-style: none;
+}
+
+
+
+
+
+.subtitleBepart {
+    color: rgb(238, 216, 124);
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: end;
+
+}
+
+.contentBepart {
+    color: black;
+    font-size: 1rem;
+    width: 200px;
+    text-align: justify;
+    
+}
+
+.buttonBepart {
+    margin-top: 30px;
+    text-align: end;
+}
+
+.buttonBepartlink {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 216, 124);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.bepartImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+.subtitleBepartleft {
+    color: rgb(238, 216, 124);
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: start;
+
+}
+
+
+.buttonBepartleft {
+    margin-top: 30px;
+    text-align: start;
+}
+
+.mainContact {
+
+    background-image: url(../img/portrait-happy-woman-with-digital-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1500px;
+    min-height: 1500px;
+    grid-area: mainContact;
+
+}
+
+.subtitleContact {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+
+}
+
+.textContact {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5px 0px;
+    
+}
+
+
+.mainContact li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.listContact {
+    margin-top: 125px;
+    margin-left: 9%;
+    font-size: 1.2rem;
+}
+
+.buttonContact {
+ 
+    text-align: end;
+    display: inline-block;
+
+}
+
+.ftextContact {
+    text-align: justify;
+    font-size: 1.2rem;
+    width: 54%;
+
+}
+
+.finalImgContact {
+    width: 49%;
+    height: 300px;
+    margin-left: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    grid-area: footer;
+}
+
+
+.footerOne {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 0px 5px;
+    height: 200px;
+    width: auto;
+    position: relative;
+
+    
+
+}
+
+.footerOne h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.footerOne p {
+    font-size: 0.8rem;
+    width: 200px;
+    text-align: justify;
+
+}
+
+.twitterImg {
+    position: relative;
+    right: 30px;
+    cursor: pointer;
+}
+
+.footerLinks ul {
+    width: 200px;
+}
+
+.footerLinks li {
+    font-size: 0.8rem;
+    padding: 2px 0px;
+    list-style: none;
+
+}
+
+.footerLinks li::before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 25px;
+    background-image: url(../img/right-arrow_3318390.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: bottom center;
+
+  }
+
+  .footerLinks a {
+    color: white;
+    text-decoration: none;
+ 
+
+  }
+
+  .footerContact li {
+    font-size: 0.8rem;
+    padding: 2px 0px;
+    list-style: none;
+
+}
+
+.footerTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 216, 124);
+    color: black;
+    padding: 0px 5px;
+    height: 25px;
+    width: auto;
+    position: relative;
+    
+
+    
+
+}
+
+.footerTwo p {
+    font-size: 1rem;
+
+}
+
+/* .footerTwo li {
+    width: 70px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer ;
+    text-align: center;
+    font-size: 1.2rem
+
+} */
+
+.iconOne {
+    width: 55px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+ 
+
+}
+
+.iconTwo {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.iconThree {
+    width: 40px;
+    height: 40px;
+   
+}
+
+.iconFour {
+    width: 40px;
+    height: 40px;
+  
+}
+
+.iconFive {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 5px;
+}
+
+.iconSix {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 8px;
+}
+
+.homePage {
+    display: grid;
+    grid-template-areas: "header header header"
+    "main main main"
+    "mainThree mainThree mainThree"
+    "mainFour mainFour mainFour"
+    "mainFive mainFive mainFive"
+    "footer footer footer";
+}
+
+.servicesPage {
+    display: grid;
+    grid-template-areas: "header header header"
+    "main main main"
+    "mainServices mainServices mainServices"
+    "footer footer footer";
+}
+
+.usPage {
+    display: grid;
+    grid-template-areas: "header header header"
+    "main main main"
+    "mainUs mainUs mainUs"
+    "mainUstwo mainUstwo mainUstwo"
+    "footer footer footer";
+}
+
+.bepartofPage {
+    display: grid;
+    grid-template-areas: "header header header"
+    "main main main"
+    "mainBepart mainBepart mainBepart"
+    "footer footer footer";
+}
+
+.contactPage {
+    display: grid;
+    grid-template-areas: "header header header"
+    "main main main"
+    "mainContact mainContact mainContact"
+    "footer footer footer";
+}
+
+
+/* SECCION PARA MOBILE */
+
+
+@media (min-width: 641px) and (max-width:1023px) {
+
+.mainMenu li{
+    display: none;
+}
+
+.mobileMenu {
+    display: inline-block;
+}
+
+}
+
+@media (min-width: 320px) and (max-width:640px) {
+
+    .mainMenu li{
+        display: none;
+    }
+    
+    .mobileMenu {
+        display: inline-block;
+    }
+    
+    }
