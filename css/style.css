@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     flex-shrink: 0;
-    box-sizing: border-box;
+    box-sizing: border-box ;
     
 }
 
@@ -11,18 +11,16 @@ body {
     font-family: 'Quicksand';
 }
 
-
 header {
     background-color: rgb(238, 216, 124);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5px;
     position: sticky;
     top: 0;
-    min-height: 70px;
-    width: auto;
+    width: 100%;
     grid-area: header;
+    border-bottom: 1px solid black ;
  
 }
 
@@ -31,10 +29,12 @@ header {
     list-style: none;
     display: inline-block;
 }
+
 .logo {
-    width: 100px;
-    height: 50px;
-    
+    object-fit: contain;
+    width: 200px;
+
+
 }
 
 .logoAdogsjoy {
@@ -80,39 +80,10 @@ main {
     display: flex;
     justify-content: flex-end;
     padding: 0px 5px;
-
-    
     
 }
 
-.mainMenu li{
-    list-style: none;
-    font-size: 2rem;
-    display: inline-block;
-    padding: 0px 10px;
 
-
-}
-
-.mobileMenu{
-   display: none;
-   width: 50px;
-   height: 50px;
-   cursor: pointer;
-}
-
-.mainMenu a{
-    
-    text-decoration: none;
-    color:  black;
-}
-
-.chatIcon {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    
-}
 
 .mainText {
     display: flex;
@@ -954,7 +925,7 @@ main {
 
 .subtitleBepart {
     color: rgb(238, 216, 124);
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 5%;
     padding-bottom: 1%;
     text-align: end;
@@ -963,8 +934,8 @@ main {
 
 .contentBepart {
     color: black;
-    font-size: 1rem;
-    width: 200px;
+    font-size: 1.5rem;
+    width: 300px;
     text-align: justify;
     
 }
@@ -982,12 +953,12 @@ main {
     border: 1px solid black;
     padding: 5px 15px;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .bepartImg {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -1108,6 +1079,7 @@ footer{
     font-weight: bold;
     text-align: center;
     padding: 20px 0px;
+    margin-bottom: 0;
 
 }
 
@@ -1235,71 +1207,66 @@ footer{
 
 .homePage {
     display: grid;
-    grid-template-areas: "header header header"
-    "main main main"
-    "mainThree mainThree mainThree"
-    "mainFour mainFour mainFour"
-    "mainFive mainFive mainFive"
-    "footer footer footer";
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree"
+    "mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour"
+    "mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
 .servicesPage {
     display: grid;
-    grid-template-areas: "header header header"
-    "main main main"
-    "mainServices mainServices mainServices"
-    "footer footer footer";
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
 .usPage {
     display: grid;
-    grid-template-areas: "header header header"
-    "main main main"
-    "mainUs mainUs mainUs"
-    "mainUstwo mainUstwo mainUstwo"
-    "footer footer footer";
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs"
+    "mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
 .bepartofPage {
     display: grid;
-    grid-template-areas: "header header header"
-    "main main main"
-    "mainBepart mainBepart mainBepart"
-    "footer footer footer";
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
 .contactPage {
     display: grid;
-    grid-template-areas: "header header header"
-    "main main main"
-    "mainContact mainContact mainContact"
-    "footer footer footer";
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
 
-/* SECCION PARA MOBILE */
+/* SECCION PARA RESPONSIVE */
 
 
-@media (min-width: 641px) and (max-width:1023px) {
+@media (min-width: 993px) {
 
-.mainMenu li{
-    display: none;
-}
-
-.mobileMenu {
-    display: inline-block;
-}
-
-}
-
-@media (min-width: 320px) and (max-width:640px) {
-
-    .mainMenu li{
-        display: none;
     }
-    
-    .mobileMenu {
-        display: inline-block;
-    }
+
+
+@media (min-width: 769px) and (max-width:992px) {
+
+
+}
+
+@media (min-width: 0px) and (max-width:768px) {
+
     
     }
+
+ 
+
+        
