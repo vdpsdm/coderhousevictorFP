@@ -4,372 +4,275 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Dog's Joy - Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="servicesPage">
     
     <header>
-        <div>
+        <div class="firstHeader">
             <img class="logo" src="../img/Mi proyecto.png" alt="a dogs joy logo">
                 <ul class="logoHome">
                     <li class="logoAdogsjoy">
                         A Dog's Joy
                     </li>
-
                     <li class="sublogoAdogsjoy">
                         You may not change the world, but you can change its.
-
                     </li>
-
                 </ul>
-
             
-
         </div>
-        <div>
-
+        <div class="secondHeader">
             <ul class="headerTopright">
 
-                <li>
+                <li id="logIn">
                     Log in
                 </li>
-
-                <li>
+                <li id="signUp">
                     Sign up
                 </li>
-
                 <li>
                     <img class="iconOne" src="../img/AdobeStock_227031027.png" alt="i1">
                     
                 </li>
-
                 <li>
                     <img class="iconTwo" src="../img/pngegg.png" alt="i2">
                 </li>
-
                 <li>
                     <img class="iconThree" src="../img/pngwing.com (1).png" alt="i3">
                 </li>
-
                 <li>
                     <img class="iconFour" src="../img/pngwing.com (2).png" alt="i4">
                 </li>
-
                 <li>
                     <img class="iconFive" src="../img/pngwing.com.png" alt="i5">
                 </li>
-
                 <li>
                     <img class="iconSix" src="../img/whatsapp-glyph-black-logo-svgrepo-com.png" alt="i6">
                 </li>
-
             </ul>
 
-
         </div>
-
         
     </header>
 
 
-
-
-
-
-
-
     <main>
-
         <div class="mainMenu">
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-
-                </li>
-                <li>
-                    <a href="services.html">Services</a>
-                </li>
-                <li>
-                    <a href="us.html">Us</a>
-                </li>
-                <li>
-                    <a href="bepartof.html">Be part of</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <img class="chatIcon" src="../img/AdobeStock_269395743-removebg-preview.png" alt="chat">
-                </li>
-                <p>
-                    <img class="mobileMenu" src="img/menu_1828859.png" alt="mobileMenu">
-                </p>
-            </ul>
-        </nav>
+            <nav class="navbar navbar-expand-md bg-transparent">
+                <div class="container-fluid">
+                  <button class="navbar-toggler navMenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title fs-1" id="offcanvasNavbarLabel">A Dog's Joy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-2" aria-current="page" href="../index.html">Home</a>
+                          </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle  fs-2 " href="services.html" role="button" aria-expanded="false">
+                          Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item  fs-5" href="#">Adopting</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item  fs-5" href="#">Rescuing a dog</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item  fs-5" href="#">Deliver a dog</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item  fs-5" href="#">Find your dog</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item  fs-5" href="#">Report dog abusement</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item  fs-5" href="#">Train your dog</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active fs-2" href="us.html">Us</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle  fs-2" href="bepartof.html" role="button" aria-expanded="false">
+                          Be part of</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item  fs-5" href="#">Donating</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item  fs-5" href="#">Volunteering</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item  fs-5" href="#">Sponsor a dog</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item  fs-5" href="#">Join us</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active fs-2" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="navbar-brand" href="#">
+                            <img src="../img/AdobeStock_269395743-removebg-preview.png" alt="chat" width="50" height="50">
+                          </a>
+                      </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
-
         <div class="mainText">
             <ul>
                 <li>
                     Will you choose to adopt?
-
                 </li>
                 <li>
                     <a class="buttonApply" href="">Apply now</a>
-
                 </li>
             </ul>
 
-
-
         </div>
-
         <p class="mainTexttwo">
             A handful number of dogs are waiting for a warmth lap to make its home.
-
         </p>
-
     </main>
         <section class="mainServices">
-
             <div class="adoptingServices">
-
                 <p>
                     <img class="servicesImg" src="../img/valentin-salja-GuvT7nRq7KI-unsplash.jpg" alt="adopting">
                 </p>
-
                 <div>
-
                 <ul>
                     <li class="subtitleServices">
                         Adopting
-
                     </li>
-
                     <li class="contentServices">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam consequuntur nihil praesentium, voluptates deleniti cum eligendi reiciendis, modi molestiae.
-
                     </li>
                 </ul>
-
                 </div>
-
                 <p class="buttonServices">
                     <a class="buttonServiceslink" href="">Go now</a>
                 </p>
-
             </div>
-
             <div class="rescueServices">
-
                 <p>
                     <img class="servicesImg" src="../img/pexels-skydon-pereira-16954101.jpg" alt="rescuing">
                 </p>
-
                 <div>
-
                 <ul>
                     <li class="subtitleServices">
                         Rescuing dogs
-
                     </li>
-
                     <li class="contentServices">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam consequuntur nihil praesentium, voluptates deleniti cum eligendi reiciendis, modi molestiae.
-
                     </li>
                 </ul>
-
                 </div>
-
                 <p class="buttonServices">
                     <a class="buttonServiceslink" href="">Go now</a>
                 </p>
-
             </div>
-
             <div class="deliverServices">
-
                 <p>
                     <img class="servicesImg" src="../img/pexels-juan-trevilla-martínez-16922984.jpg" alt="delivering">
                 </p>
-
                 <div>
-
                 <ul>
                     <li class="subtitleServices">
                         Deliver a dog
-
                     </li>
-
                     <li class="contentServices">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam consequuntur nihil praesentium, voluptates deleniti cum eligendi reiciendis, modi molestiae.
-
                     </li>
                 </ul>
-
                 </div>
-
                 <p class="buttonServices">
                     <a class="buttonServiceslink" href="">Go now</a>
                 </p>
-
             </div>
-
             <div class="findServices">
-
                 <p>
                     <img class="servicesImg" src="../img/pexels-zechen-li-16927319.jpg" alt="finding">
                 </p>
-
                 <div>
-
                 <ul>
                     <li class="subtitleServices">
                         Find your dog
-
                     </li>
-
                     <li class="contentServices">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam consequuntur nihil praesentium, voluptates deleniti cum eligendi reiciendis, modi molestiae.
-
                     </li>
                 </ul>
-
                 </div>
-
                 <p class="buttonServices">
                     <a class="buttonServiceslink" href="">Go now</a>
                 </p>
-
             </div>
-
             <div class="reportServices">
-
                 <p>
                     <img class="servicesImg" src="../img/pexels-anete-lusina-5723324.jpg" alt="reporting">
                 </p>
-
                 <div>
-
                 <ul>
                     <li class="subtitleServices">
                         Report dog abusement
-
                     </li>
-
                     <li class="contentServices">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam consequuntur nihil praesentium, voluptates deleniti cum eligendi reiciendis, modi molestiae.
-
                     </li>
                 </ul>
-
                 </div>
-
                 <p class="buttonServices">
                     <a class="buttonServiceslink" href="">Go now</a>
                 </p>
-
             </div>
-
             <div class="trainServices">
-
                 <p>
                     <img class="servicesImg" src="../img/pexels-guillermo-paxi-16938683.jpg" alt="training">
                 </p>
-
                 <div>
-
                 <ul>
                     <li class="subtitleServices">
                         Train your dog
-
                     </li>
-
                     <li class="contentServices">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro numquam consequuntur nihil praesentium, voluptates deleniti cum eligendi reiciendis, modi molestiae.
-
                     </li>
                 </ul>
-
                 </div>
-
                 <p class="buttonServices">
                     <a class="buttonServiceslink" href="">Go now</a>
                 </p>
-
             </div>
-
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 
     <footer>
         <div class="footerOne">
             <div>
                 <h2>
                     About us
-
                 </h2>
                 <p>
                     A Dog´s Joy is an enterprise and a refuge for the beneft of those dogs that need a home, a family, love and atention. We are a group of individuals looking to make the best of a dog´s life together along the community and the world.
                 </p>
             </div>
-            <div>
+            <div class="noDisplayMobile">
                 <h2>
                     News
-
                 </h2>
                 <p>
                     <img class="twitterImg" src="../img/twitterIMG.png" alt="twitter">
-
                 </p>
             </div>
-            <div>
+            <div  class="noDisplayMobile2">
                 <h2>
                     Links
-
                 </h2>
                 <ul class="footerLinks">
                     <li>
                         <a href="">Donation</a>
                         
-
                     </li>
                     <li>
                         <a href="">Report dog abusement</a>
@@ -398,16 +301,13 @@
                     </li>
                 </ul>
             </div>
-
             <div>
                 <h2>
                     Contact
-
                 </h2>
                 <ul class="footerContact">
                     <li>
                         +584246284938.
-
                     </li>
                     <li>
                         Business hours: 8:00 a.m to 5:00 p.m.
@@ -431,19 +331,13 @@
                     </li>
                 </ul>
             </div>
-
         </div>
-
         <div class="footerTwo">
             <p>
                 © 2023 ADJ All rights reserved.
-
             </p>
-
         </div>
-
     </footer>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

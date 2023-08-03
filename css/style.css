@@ -1,56 +1,53 @@
 *{
     margin: 0;
     padding: 0;
-    flex-shrink: 0;
     box-sizing: border-box ;
     
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-body {
-    font-family: 'Quicksand';
+body{
+    min-width: 320px;
 }
-
+header{
+    min-width: 320px;
+}
+main{
+    min-width: 320px;
+}
+footer{
+    min-width: 320px;
+}
 header {
     background-color: rgb(238, 216, 124);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
-    width: 100%;
     grid-area: header;
     border-bottom: 1px solid black ;
- 
 }
-
-
 .logoHome {
     list-style: none;
     display: inline-block;
+    position: relative;
+    top: 15px;
+    right: 60px;
 }
-
 .logo {
     object-fit: contain;
     width: 200px;
-
-
 }
-
 .logoAdogsjoy {
     font-size: 2.5rem;
     font-weight: bold;
     font-style: italic;
     
 }
-
 .sublogoAdogsjoy {
     font-size: 0.8rem;
     font-style: italic;
     color: rgba(255, 255, 255, 0.858);
     
 }
-
 .headerTopright li {
     width: 70px;
     height: 50px;
@@ -58,52 +55,31 @@ header {
     cursor: pointer;
     font-size: 1.2rem;
     text-align: center;
-
-    
+    object-fit: contain;
 }
-
-
-
-
-
 
 main {
     background-image: url(../img/cute-puppy-dachshund-dog-posing-isolated-white-background.jpg);
-    background-size: 100% 400px;
+    background-size: 200vw 400px;
     background-repeat: no-repeat;
     min-height: 400px;
     width: auto;
     grid-area: main;
 }
-
 .mainMenu {
     display: flex;
     justify-content: flex-end;
-    padding: 0px 5px;
-    
 }
-
-
-
 .mainText {
     display: flex;
     justify-content: flex-start;
-    
-    padding: 10px 50px;
-
 }
-
 .mainText li{
     list-style: none;
     font-size: 1.5rem;
     display: inline-block;
-    padding: 0px 5px;
     color: rgb(236, 203, 71);
-
-
-
 }
-
 .buttonApply {
     text-decoration: none;
     color: black;
@@ -113,12 +89,12 @@ main {
     padding: 5px 5px;
     font-size: 1rem;
 }
-
 .mainTexttwo {
     color: black;
-    padding: 0px 60px;
+    padding: 0px 35px;
+    width: 30%;
+    text-align: justify;
 }
-
 .mainTextthree {
     margin-top: 275px;
     padding: 15px 0px;
@@ -127,43 +103,32 @@ main {
     font-size: 1.5rem;
     color: black;
     border: 1px solid black;
-
+    margin-bottom: 0 !important;
 }
-
 .mainThree {
     
     background-image: url(../img/vecteezy_artificial-grass-texture-banner_3086563.jpg);
     background-repeat: no-repeat;
     background-size: 100% 350px;
-    min-height: 250px;
+    height: 250px;
     display: flex;
     justify-content: space-evenly;;
     align-items: center;
     flex-flow: row wrap;
-    padding: 0px 5px;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     border-left: 1px solid black;
     grid-area: mainThree;
     
 }
-
-
-
 .leftMain {
     width: 25px;
     height: 25px;
     background-color:  rgb(238, 216, 124);
     border: 1px solid black;
-
-
-
-
-    margin-left: 5px;
     cursor: pointer;
     border-radius: 50%;
 }
-
 .photoOne {
     width: 200px;
     height: 150px;
@@ -173,22 +138,21 @@ main {
     background-image: url(../img/erda-estremera-JBrbzg5N7Go-unsplash.jpg);
     background-size: 200px 150px;
     background-repeat: no-repeat;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     
     
 }
-
 .photoOne a {
     color: black;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     text-decoration: none;
     border: 1px solid black;
     background-color: rgb(238, 216, 124);
+    border-radius: 25%;
+    padding: 0px 5px;
     
-
 }
-
 .photoTwo {
     width: 200px;
     height: 150px;
@@ -198,20 +162,19 @@ main {
     background-image: url(../img/milli-2l0CWTpcChI-unsplash.jpg);
     background-size: 200px 150px;
     background-repeat: no-repeat;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     
 }
-
 .photoTwo a {
     color: black;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     text-decoration: none;
     border: 1px solid black;
     background-color: rgb(238, 216, 124);
-
+    border-radius: 25%;
+    padding: 0px 5px;
 }
-
 .photoThree {
     width: 200px;
     height: 150px;
@@ -221,117 +184,91 @@ main {
     background-image: url(../img/baptist-standaert-mx0DEnfYxic-unsplash.jpg);
     background-size: 200px 150px;
     background-repeat: no-repeat;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     
 }
-
 .photoThree a {
     color: black;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     text-decoration: none;
     border: 1px solid black;
     background-color: rgb(238, 216, 124);
-
+    border-radius: 25%;
+    padding: 0px 5px;
 }
-
 .photoFour {
     width: 200px;
     height: 150px;
     border: 1px solid black;
     border-radius: 25%;
-
     display: flex;
     background-image: url(../img/camylla-battani-AoqgGAqrLpU-unsplash.jpg);
     background-size: 200px 150px;
     background-repeat: no-repeat;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     
 }
-
 .photoFour a {
     color: black;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     text-decoration: none;
     border: 1px solid black;
     background-color: rgb(238, 216, 124);
-
+    border-radius: 25%;
+    padding: 0px 5px;
 }
-
 .rightMain {
     width: 25px;
     height: 25px;
     background-color:  rgb(238, 216, 124);
     border: 1px solid black;
-
-
-
-
-    margin-left: 5px;
     cursor: pointer;
     border-radius: 50%;
 }
-
 .mainFour {
     background-image: url(../img/Presentation1.png);
     background-repeat: no-repeat;
     background-size: 100% 500px;
-    min-height: 500px;
+    height: 600px;
     text-align: center;
     grid-area: mainFour;
-
 }
-
 .mainFourtx1 {
-
     font-size: 2rem;
     padding-top: 40px;
-
 }
-
 .mainFourtx2 {
-
     font-size: 1.2rem;
-    padding: 0px 0px;
-
 }
-
 .mainFourAProcess {
     display: flex;
     justify-content: center;
     gap: 50px;
     align-items: center;
     margin-top: 50px;
-
-
 }
-
 .one {
     width: 25px;
     height: 25px;
     text-align: center;
-
 }
-
 .two {
     width: 25px;
     height: 25px;
     text-align: center;
 }
-
 .three {
     width: 25px;
     height: 25px;
     text-align: center; 
 }
-
 .four {
     width: 25px;
     height: 25px;
     text-align: center;
 }
-
 .search {
     width: 50px;
     height: 50px;
@@ -347,33 +284,26 @@ main {
     height: 50px;
     text-align: center;
 }
-
 .dog {
     width: 50px;
     height: 50px;
     text-align: center;
 }
-
 .mainFourAProcess li {
     list-style: none;
     width:150px ;
     height: 35px;
     text-align: center;
-
+    padding: 25px 0px;
 }
-
 .listYellow {
     color: rgb(238, 216, 124);
     font-size: 1.2rem;
-    padding-top: 20px;
-
 }
-
 .mainFourbutton {
     margin: 100px;
  
 }
-
 .mainFourbutton a{
     text-decoration: none;
     color: black;
@@ -384,59 +314,44 @@ main {
     cursor: pointer;
     font-size: 1.2rem;
 }
-
 .mainFive {
     background-image: url(../img/Presentation2.png);
     background-repeat: no-repeat;
-    background-size: 100% 500px;
-    min-height: 500px;
+    background-size: 100% 800px;
+    height: 800px;
     text-align: center;
     grid-area: mainFive;
 }
-
 .volunteer {
     width: 50px;
     height: 50px;
-    padding-top: 35px;
 }
-
 .mainFivetx1 {
     font-size: 2rem;
 }
-
 .mainFivetx2 {
     font-size: 1.2rem;
 }
-
 .mainFiveVolunteer {
     display: flex;
-
     align-items: center;
     justify-content: center;
-
-
 }
-
 .mainFiveVolunteer p {
     display: inline-block
 }
-
 .volTx1 {
     text-align: justify;
     font-size: 1rem;
     width: 150px;
  
-
 }
-
 .volTx2 {
     text-align: justify;
     font-size: 1rem;
     width: 150px;
  
-
 }
-
 .volunteeringImg {
     width: 500px;
     height: 350px;
@@ -444,19 +359,15 @@ main {
     padding-left: 50px;
     padding-right: 50px;
     
-
 }
-
 .mainFivetx3 {
     font-size: 1.2rem;
     margin: 15px;
 }
-
 .mainFivebutton {
     margin: 15px;
  
 }
-
 .mainFivebutton a{
     text-decoration: none;
     color: black;
@@ -467,143 +378,86 @@ main {
     cursor: pointer;
     font-size: 1.2rem;
 }
-
-
-
-
-
-
-
-
-
 .mainServices {
     background-image: url(../img/Presentation3.png);
     background-repeat: no-repeat;
-    background-size: 100% 1500px;
-    min-height: 1350px;
+    background-size: 100% 1600px;
+    height: 1600px;
     text-align: center;
     grid-area: mainServices;
-
 }
-
 .adoptingServices {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
     margin-left: 35%;
-    height: 200px;
-
-
+    height: 250px;
 }
-
-
 .adoptingServices li {
     list-style: none;
 }
-
 .rescueServices {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
     margin-left: 20%;
-    height: 200px;
-
-
+    height: 250px;
 }
-
-
-
 .rescueServices li {
     list-style: none;
 }
-
 .deliverServices {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
     margin-left: 10%;
     height: 250px;
-
-
 }
-
-
 .deliverServices li {
     list-style: none;
 }
-
 .findServices {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
     margin-left: 10%;
     height: 250px;
-
-
 }
-
-
 .findServices li {
     list-style: none;
 }
-
 .reportServices {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
     margin-left: 20%;
-    height: 200px;
-
-
+    height: 250px;
 }
-
-
 .reportServices li {
     list-style: none;
 }
-
 .trainServices {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
     margin-left: 35%;
-    height: 200px;
-
-
+    height: 250px;
 }
-
-
 .trainServices li {
     list-style: none;
 }
-
-
-
-
-
-
-
-
 .subtitleServices {
     color: rgb(238, 216, 124);
     font-size: 1.5rem;
     margin-top: 50px;
     margin-bottom: 10px;
-
 }
-
 .contentServices {
     color: black;
     font-size: 1rem;
@@ -611,11 +465,9 @@ main {
     text-align: justify;
     
 }
-
 .buttonServices {
     margin-top: 50px;
 }
-
 .buttonServiceslink {
     text-decoration: none;
     color: black;
@@ -626,18 +478,12 @@ main {
     cursor: pointer;
     font-size: 1.2rem;
 }
-
 .servicesImg {
     width: 200px;
     height: 200px;
     margin-top: 60px;
     border-radius: 50%;
 }
-
-
-
-
-
 
 .mainUs {
     background-image: url(../img/girl-dog.jpg);
@@ -646,13 +492,10 @@ main {
     height: 600px;
     border: 1px solid black;
     padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
     grid-area: mainUs;
-
 }
-
-
-
-
 
 .subtitleUs {
     font-size: 2rem;
@@ -660,14 +503,12 @@ main {
     color: rgb(238, 216, 124);
     font-weight: bold;
 }
-
 .contentUs {
     font-size: 1.2rem;
     text-align: justify;
     width: 350px;
     padding: 10px 0px;
 }
-
 .textUs {
     margin-top: 70px;
     font-size: 2rem;
@@ -675,7 +516,6 @@ main {
     color: black;
     margin-left: 31%;
 }
-
 .mainbuttonUs{
     text-align: start;
     margin-top: 15px;
@@ -691,20 +531,14 @@ main {
     padding: 5px 15px;
     cursor: pointer;
     font-size: 1.2rem;
-
 }
-
 .mainUstwo {
-    min-height: 900px;
+    height: 900px;
     background-image: url(../img/happy-hipster-guy-glasses-pet-dog-smiling-cute-black-pug-enjoy-spending-time-with-owner-looki.jpg);
     background-repeat: no-repeat;
     background-size: 100% 900px;
     grid-area: mainUstwo;
-
-
-
 }
-
 .blockUstwo {
     display: flex;
     justify-content: center;
@@ -712,80 +546,62 @@ main {
     flex-direction: column;
     margin-right: 10%;
 }
-
 .subtitleUstwo {
-    padding-top: 135px;
+    padding-top: 80px;
     font-size: 2rem;
     color: rgb(238, 216, 124);
     text-align: end;
-
-
 }
-
 .contentUstwo {
     font-size: 1.2rem;
     text-align: justify;
-    width: 370px;
+    width: 400px;
     padding: 10px 0px;
 }
-
-
 .rowImgUs1 {
     display: flex;
     justify-content: flex-start;;
     gap: 5%;
     align-items: center;
     height: 200px;
-    padding: 0px 10%;
-
+    padding: 0px 16%;
 }
-
 .rowoneImgUs{
         
     display: flex;
     justify-content: center;;
     align-items: center;
-
  
 }
-
 .rowtwoImgUs{
         
     display: flex;
     justify-content: center;;
     align-items: center; 
-
  
 }
-
 .rowImgUs2 {
     display: flex;
     justify-content: flex-start;;
     gap: 5%;
     align-items: center;
     height: 200px;
-    padding: 0px 2%;
-
+    padding: 0px 6%;
 }
-
 .rowthreeImgUs{
         
     display: flex;
     justify-content: center;;
     align-items: center;
-
  
 }
-
 .rowfourImgUs{
         
     display: flex;
     justify-content: center;;
     align-items: center; 
-
  
 }
-
 .rowImg {
     width: 150px;
     height: 150px;
@@ -795,133 +611,88 @@ main {
     object-fit: cover;
 }
 
-
-
-
 .rowonePosUs {
     text-align: start;
     font-size: 0.6rem;
     padding: 5px 15px;
 }
-
 .rowoneBox {
     display: inline-block;
     list-style: none;
-
     font-size: 1.5rem;
     text-align: start;
-
     
 }
-
 .rowoneBox li{
-
     list-style: none;
     display: inline-block;
     padding: 0px 5px;
-
 }
-
 .rowoneimgBox {
     display: inline-block;
     cursor: pointer;
-
 }
-
 .rowoneNameUs{
     cursor: pointer;
 }
 
-
-
-
-
-
 .mainBepart {
     background-image: url(../img/Presentation4.png);
     background-repeat: no-repeat;
-    background-size: 100% 1500px;
-    min-height: 1350px;
+    background-size: 100% 1350px;
+    height: 1350px;
     grid-area: mainBepart;
 }
-
 .donatingBepart {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 2%;
     padding-left: 5%;
     
-    padding-bottom: 10%;
+    padding-bottom: 3%;
  
-
-
 }
-
-
 .donatingBepart li {
     list-style: none;
 }
-
 .volunteeringBepart {
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 2%;
     padding-right: 7%;
     
-    padding-bottom: 10%;
-
-
+    padding-bottom: 3%;
 }
-
-
 .volunteeringBepart li {
     list-style: none;
 }
-
 .sponsorBepart {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 2%;
     padding-left: 5%;
     
-    padding-bottom: 10%;
+    padding-bottom: 3%;
  
-
-
 }
-
-
 .sponsorBepart li {
     list-style: none;
 }
-
 .joinBepart {
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 2%;
     padding-right: 7%;
     
-    padding-bottom: 10%;
-
-
+    padding-bottom: 3%;
 }
-
-
 .joinBepart li {
     list-style: none;
 }
-
-
-
-
 
 .subtitleBepart {
     color: rgb(238, 216, 124);
@@ -929,22 +700,18 @@ main {
     padding-top: 5%;
     padding-bottom: 1%;
     text-align: end;
-
 }
-
 .contentBepart {
     color: black;
-    font-size: 1.5rem;
-    width: 300px;
+    font-size: 1.2rem;
+    width: 200px;
     text-align: justify;
     
 }
-
 .buttonBepart {
     margin-top: 30px;
     text-align: end;
 }
-
 .buttonBepartlink {
     text-decoration: none;
     color: black;
@@ -955,158 +722,110 @@ main {
     cursor: pointer;
     font-size: 1.5rem;
 }
-
 .bepartImg {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-
-
-
 .subtitleBepartleft {
     color: rgb(238, 216, 124);
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 5%;
     padding-bottom: 1%;
     text-align: start;
-
 }
-
-
 .buttonBepartleft {
     margin-top: 30px;
     text-align: start;
 }
 
 .mainContact {
-
     background-image: url(../img/portrait-happy-woman-with-digital-tablet.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 1500px;
-    min-height: 1500px;
+    background-size: 100% 2000px;
+    height: 1780px;
     grid-area: mainContact;
-
 }
-
 .subtitleContact {
     text-align: center;
     font-size: 1.5rem;
     padding: 5px 0px;
-
 }
-
 .textContact {
     text-align: center;
     font-size: 1.2rem;
     padding: 5px 0px;
     
 }
-
-
 .mainContact li {
     list-style: none;
     padding: 10px 0px;
 }
-
 .listContact {
     margin-top: 125px;
     margin-left: 9%;
     font-size: 1.2rem;
 }
-
 .buttonContact {
  
     text-align: end;
     display: inline-block;
-
 }
-
 .ftextContact {
     text-align: justify;
     font-size: 1.2rem;
     width: 54%;
-
 }
-
 .finalImgContact {
     width: 49%;
     height: 300px;
     margin-left: 9%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pfinalImgContact{
+    margin-bottom: 0px !important;
+}
+#message{
+    width: 50%;
+}
 footer{
     grid-area: footer;
 }
-
-
 .footerOne {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: top;
     background-color: rgb(31, 31, 31);
     color: white;
-    padding: 0px 5px;
+    padding: 0px 1%;
     height: 200px;
     width: auto;
-    position: relative;
-
-    
-
 }
-
 .footerOne h2 {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     padding: 20px 0px;
     margin-bottom: 0;
-
 }
-
 .footerOne p {
     font-size: 0.8rem;
     width: 200px;
     text-align: justify;
-
 }
-
 .twitterImg {
     position: relative;
-    right: 30px;
+    text-align: center;
+    width: 100%;
     cursor: pointer;
 }
-
 .footerLinks ul {
     width: 200px;
 }
-
 .footerLinks li {
     font-size: 0.8rem;
     padding: 2px 0px;
     list-style: none;
-
 }
-
 .footerLinks li::before {
     content: '';
     display: inline-block;
@@ -1116,157 +835,837 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
 	background-position: bottom center;
-
   }
-
   .footerLinks a {
     color: white;
     text-decoration: none;
  
-
   }
-
   .footerContact li {
     font-size: 0.8rem;
     padding: 2px 0px;
     list-style: none;
-
 }
-
 .footerTwo {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background-color: rgb(238, 216, 124);
     color: black;
-    padding: 0px 5px;
-    height: 25px;
-    width: auto;
-    position: relative;
+    width: auto; 
+    padding-top: 8px;
     
-
-    
-
 }
-
 .footerTwo p {
     font-size: 1rem;
-
 }
-
-/* .footerTwo li {
-    width: 70px;
-    height: 50px;
-    display: inline-block;
-    cursor: pointer ;
-    text-align: center;
-    font-size: 1.2rem
-
-} */
-
 .iconOne {
     width: 55px;
     height: 50px;
-    position: relative;
-    top: 5px;
  
-
 }
-
 .iconTwo {
     width: 40px;
     height: 40px;
-    
 }
-
 .iconThree {
     width: 40px;
     height: 40px;
-   
 }
-
 .iconFour {
     width: 40px;
     height: 40px;
-  
 }
-
 .iconFive {
     width: 70px;
     height: 70px;
     position: relative;
-    top: 5px;
+    bottom: 10px;
 }
-
 .iconSix {
     width: 40px;
     height: 40px;
-    position: relative;
-    left: 8px;
 }
 
-.homePage {
-    display: grid;
-    grid-template-areas: "header header header header header header header header header header header header"
-    "main main main main main main main main main main main main"
-    "mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree"
-    "mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour"
-    "mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive"
-    "footer footer footer footer footer footer footer footer footer footer footer footer";
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
 }
-
-.servicesPage {
-    display: grid;
-    grid-template-areas: "header header header header header header header header header header header header"
-    "main main main main main main main main main main main main"
-    "mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices"
-    "footer footer footer footer footer footer footer footer footer footer footer footer";
-}
-
-.usPage {
-    display: grid;
-    grid-template-areas: "header header header header header header header header header header header header"
-    "main main main main main main main main main main main main"
-    "mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs"
-    "mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo"
-    "footer footer footer footer footer footer footer footer footer footer footer footer";
-}
-
-.bepartofPage {
-    display: grid;
-    grid-template-areas: "header header header header header header header header header header header header"
-    "main main main main main main main main main main main main"
-    "mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart"
-    "footer footer footer footer footer footer footer footer footer footer footer footer";
-}
-
-.contactPage {
-    display: grid;
-    grid-template-areas: "header header header header header header header header header header header header"
-    "main main main main main main main main main main main main"
-    "mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact"
-    "footer footer footer footer footer footer footer footer footer footer footer footer";
-}
-
-
 /* SECCION PARA RESPONSIVE */
 
-
-@media (min-width: 993px) {
-
+@media (min-width: 993px) and (max-width:1200px){
+    .logo{
+        width: 25%;
     }
-
-
-@media (min-width: 769px) and (max-width:992px) {
-
-
+    .logoAdogsjoy{
+        font-size: 2rem;
+    }
+    .sublogoAdogsjoy{
+        font-size: 0.6rem;
+    }
+    #logIn{
+        display: none;
+    }
+    #signUp{
+        display: none;
+    }
+ 
+    .headerTopright li{
+        width: 60px;
+       }
+    header {
+    justify-content: flex-start;
+    }
+    .pfinalImgContact{
+        margin-bottom: 0px !important;
+    }
+    .subtitleBepart {
+        font-size: 1.5rem;
+    }
+    .contentBepart {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+ 
+    .buttonBepartlink {
+        font-size: 1rem;
+    }
+    .bepartImg {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .subtitleBepartleft {
+        font-size: 1.5rem;
+    }
+    
+    .rowImgUs2 {
+        padding: 0px 2%;
+    }
+    .rowImgUs1 {
+        padding: 0px 10%;
+    }
 }
-
-@media (min-width: 0px) and (max-width:768px) {
-
+@media (min-width: 769px) and (max-width:992px) {
+    .noDisplayMobile{
+        display: none;
+    }
+    #logIn{
+        display: none;
+    }
+    #signUp{
+        display: none;
+    }
+    .headerTopright li{
+        width: 50px;
+       }
+    header {
+    justify-content: flex-start;
+    }
+    .firstHeader{
+        width: 400px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .logoAdogsjoy{
+        font-size: 2rem;
+    }
+    .sublogoAdogsjoy{
+        font-size: 0.6rem;
+    }
+    .headerTopright li{
+        width: 45px;
+       }
+    .iconOne{
+        position: relative;
+        right:15px;
+    }
+    .iconSix{
+        position: relative;
+        left:25px;
+    }
+    .mainContact{
+        background-image: none;
+        height: 1750px;
+    }
+    #message{
+        width: 80%;
+    }
+    .listContact{
+        text-align: center;
+        margin-left: 0;
     
     }
-
+    .listContact ul{
+        padding-left: 0 !important;
+    }
+    .ftextContact {
+        text-align: center;
+        font-size: 1.2rem;
+        width: 100%;
+        margin-right: 0;
+    }
+    .finalImgContact {
+        width: 100%;
+        margin-left: 0;
+    }
+    .pfinalImgContact{
+        margin-bottom: 0px !important;
+    }
+    .mainBepart{
+        background-image: none;
+    }
+    .subtitleBepart {
+        font-size: 1.5rem;
+    }
+    .contentBepart {
+        font-size: 0.8rem;
+        width: 150px;
+    }
  
-
+    .buttonBepartlink {
+        font-size: 1rem;
+    }
+    .bepartImg {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .subtitleBepartleft {
+        font-size: 1.5rem;
+    }
+    .mainBepart{
+        height: 1200px;
+    }
         
+    .rowImgUs2 {
+        padding: 0px 10%;
+    }
+    .rowImgUs1 {
+        padding: 0px 10%;
+    }
+    .subtitleUstwo{
+        text-align: center;
+    }
+    .blockUstwo{
+        justify-content: center;
+        align-items: center;
+    }
+    .contentUstwo{
+        text-align: justify;
+        font-size: 1rem;
+    }
+    .mainUstwo{
+        background-image: none;
+        height: 800px;
+    }
+    .subtitleUs {
+        font-size: 1.8rem;
+    }
+    .contentUs {
+        font-size: 1rem;
+        width: 250px;
+    }
+    .textUs {
+        font-size: 1.6rem;
+        margin-left: 22%;
+    }
+    .mainbuttonUs{
+        margin-left: 20%;
+    }
+    .buttonUs {
+        font-size: 1rem;
+    }
+    .mainUs {
+        padding: 100px 50px;
+    }
+    
+    .subtitleServices {
+        font-size: 1.2rem;
+    }
+    .contentServices {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+    /* .buttonServices {
+        
+    } */
+    .buttonServiceslink {
+        font-size: 0.8rem;
+    }
+    .servicesImg {
+        width: 150px;
+        height: 150px;
+    }
+    .adoptingServices {
+        gap: 3%;
+    }
+    
+    .rescueServices {
+        gap: 3%;
+    
+    }
+    
+    .deliverServices {
+        gap: 3%;
+    }
+    
+    .findServices {
+        gap: 3%;
+    }
+    
+    .reportServices {
+        gap: 3%;
+    }
+    
+    .trainServices {
+        gap: 3%;
+    }
+    .photoOne{
+        background-size: 100px 100px;
+        width: 100px;
+        height: 100px;
+    }
+    .photoTwo{
+        background-size: 100px 100px;
+        width: 100px;
+        height: 100px;
+    }
+    .photoThree{
+        background-size: 100px 100px;
+        width: 100px;
+        height: 100px;
+    }
+    .photoFour{
+        background-size: 100px 100px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .mainFourAProcess {
+        gap: 1%;
+    }
+    .one {
+        width: 25px;
+        height: 25px;
+    }
+    .two {
+        width: 25px;
+        height: 25px;
+    }
+    .three {
+        width: 25px;
+        height: 25px;
+ 
+    }
+    .four {
+        width: 25px;
+        height: 25px;
+  
+    }
+    .search {
+        width: 50px;
+        height: 50px;
+    
+    }
+    .adoptform {
+        width: 50px;
+        height: 50px;
+    }
+    .meet {
+        width: 50px;
+        height: 50px;
+    }
+    .dog {
+        width: 50px;
+        height: 50px;
+    }
+    .mainFourAProcess li {
+        width: 100px;
+        height: 35px;
+        font-size: 1rem;
+    }
+    /* .listYellow {
+    } */
+    .mainFour{
+        height: 700px;
+    }
+    .mainFourbutton {
+        margin-top: 200px;
+    }
+    .mainFourbutton a{
+        font-size: 0.8rem;
+    }
+    .mainFive {
+        height: 700px;
+    }
+    .volunteer {
+        width: 50px;
+        height: 50px;
+    }
+    .mainFivetx1 {
+        font-size: 2rem;
+    }
+    .mainFivetx2 {
+        font-size: 1.2rem;
+    }
+ 
+    .volTx1 {
+        width: 100px;
+        font-size: 0.8rem;
+    }
+    .volTx2 {
+        width: 100px;
+        font-size: 0.8rem;
+    }
+    .volunteeringImg {
+        width: 400px;
+    }
+    .mainFivetx3 {
+        font-size: 1rem;
+    }
+    .mainFivebutton a{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 320px) and (max-width:768px) {
+    .noDisplayMobile{
+        display: none;
+    }
+    #logIn{
+        display: none;
+    }
+    #signUp{
+        display: none;
+    }
+    .secondHeader{
+        display: none;
+    }
+    header {
+    justify-content: flex-end;
+    }
+    .firstHeader{
+        width: 100%;
+    }
+    .logo{
+        width: 25%;
+    }
+    .logoAdogsjoy{
+        font-size: 1.6rem;
+    }
+    .sublogoAdogsjoy{
+        font-size: 0.5rem;
+    }
+    .mainContact{
+        background-image: none;
+    }
+    .mainText{
+        margin-top: 30px;
+    }
+    .mainText li{
+        font-size: 1rem;
+    }
+    .buttonApply {
+        font-size: 0.6rem;
+    }
+    .mainTexttwo {
+        text-align: justify;
+        font-size: 0.8rem;
+ 
+        width: 65%;
+    }
+    #message{
+        width: 80%;
+    }
+    .listContact{
+        text-align: center;
+        margin-left: 0;
+        font-size: 1rem;
+    
+    }
+    .listContact ul{
+        padding-left: 0 !important;
+    }
+    .ftextContact {
+        text-align: center;
+        font-size: 1rem;
+        width: 100%;
+        margin-right: 0;
+    }
+    .finalImgContact {
+        width: 100%;
+        margin-left: 0;
+    }
+    .pfinalImgContact{
+        margin-bottom: 0px !important;
+    }
+    .mainContact{
+        height: 1690px;
+    }
+    .noDisplayMobile2{
+        display: none;
+    }
+    .footerOne{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .footerOne p{
+        font-size: 0.6rem;
+        width: 125px;
+    }
+    .footerOne li{
+        font-size: 0.6rem;
+        width: 125px;
+    }
+    .footerTwo{
+        justify-content: center;
+    }
+    .footerTwo p{
+        font-size: 1rem;
+    }
+    .mainBepart{
+        background-image: none;
+    }
+    .subtitleBepart {
+        font-size: 1.1rem;
+    }
+    .contentBepart {
+        font-size: 0.7rem;
+        width: 120px;
+    }
+ 
+    .buttonBepartlink {
+        font-size: 0.9rem;
+    }
+    .bepartImg {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .subtitleBepartleft {
+        font-size: 1.1rem;
+    }
+    .volunteeringBepart{
+        justify-content: center;
+    }
+    .joinBepart{
+        justify-content: center;
+    }
+    .donatingBepart{
+        justify-content: center;
+    }
+    .sponsorBepart{
+        justify-content: center;
+    }
+    .mainBepart{
+        height: 1100px;
+    }
+    .rowImgUs2 {
+        padding: 0;
+        justify-content: center;
+    }
+    .rowImgUs1 {
+        padding: 0;
+        justify-content: center;
+    }
+    .subtitleUstwo{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left: 0px;
+    }
+    .blockUstwo{
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contentUstwo{
+        text-align: justify;
+        font-size: 1rem;
+        width: 250px;
+        margin-left: 0px;
+    }
+    .mainUstwo{
+        background-image: none;
+        height: 800px;
+    }
+    .subtitleUs {
+        font-size: 1.8rem;
+    }
+    .contentUs {
+        font-size: 1rem;
+        width: 250px;
+    }
+    .textUs {
+        font-size: 1.6rem;
+        margin: 0;
+ 
+    }
+    .mainbuttonUs{
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .buttonUs {
+        font-size: 1rem;
+    }
+    .mainUs {
+        padding: 100px 25px;
+        background-size: 220vw 600px;
+        align-items: center;
+    }
+    .rowImg {
+        width: 75px;
+        height: 75px;
+        margin-top: 25px;
+    }
+    .rowoneBox {
+        width: 50px;
+    }
+    .rowonePosUs {
+        font-size: 0.5rem;
+    }
+    .rowoneNameUs{
+        font-size: 1.2rem;
+    }
+    .blockUstwo{
+        margin-right: 0;
+    }
+    .subtitleServices {
+        font-size: 1rem;
+        width: 100px;
+    }
+    .contentServices {
+        font-size: 0.5rem;
+        width: 100px;
+    }
+    /* .buttonServices {
+        
+    } */
+    .buttonServiceslink {
+        font-size: 0.5rem;
+        padding: 5px 5px;
+    }
+    .servicesImg {
+        width: 80px;
+        height: 80px;
+    }
+    .adoptingServices {
+        gap: 2%;
+        margin-left: 0;
+        justify-content: center;
+        height: 150px;
+    }
+    
+    .rescueServices {
+        gap: 2%;
+        margin-left: 0;
+        justify-content: center;
+        height: 150px;
+    }
+    
+    .deliverServices {
+        gap: 2%;
+        margin-left: 0;
+        justify-content: center;
+        height: 150px;
+    }
+    
+    .findServices {
+        gap: 2%;
+        margin-left: 0;
+        justify-content: center;
+        height: 150px;
+    }
+    
+    .reportServices {
+        gap: 2%;
+        margin-left: 0;
+        justify-content: center;
+        
+        height: 150px;
+    }
+    
+    .trainServices {
+        gap: 2%;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+    .mainServices{
+        background-image: none;
+        height: 950px;
+    }
+    .photoOne{
+        background-size: 250px 200px;
+        width: 250px;
+        height: 200px;
+    }
+    .photoTwo{
+        display: none;
+    }
+    .photoThree{
+        display: none;
+    }
+    .photoFour{
+        display: none;
+    }
+    
+    .mainFourAProcess {
+        gap: 1%;
+    }
+    .one {
+        width: 15px;
+        height: 15px;
+    }
+    .two {
+        width: 15px;
+        height: 15px;
+    }
+    .three {
+        width: 15px;
+        height: 15px;
+ 
+    }
+    .four {
+        width: 15px;
+        height: 15px;
+  
+    }
+    .search {
+        width: 25px;
+        height: 25px;
+    
+    }
+    .adoptform {
+        width: 25px;
+        height: 25px;
+    }
+    .meet {
+        width: 25px;
+        height: 25px;
+    }
+    .dog {
+        width: 25px;
+        height: 25px;
+    }
+    .mainFourAProcess{
+        gap: 5%;
+        margin-top: 0;
+    }
+    .mainFourAProcess li {
+        width: 50px;
+        height: 35px;
+        font-size: 0.6rem;
+    }
+    .mainFourAProcess ul {
+    padding-left: 0 !important;
+    }
+    /* .listYellow {
+    } */
+    .mainFour{
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainFourbutton {
+        margin-top: 140px;
+        margin-bottom: 0;
+    }
+    .mainFourbutton a{
+        font-size: 0.6rem;
+    }
+    .mainFive {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .volunteer {
+        width: 50px;
+        height: 50px;
+    }
+    .mainFivetx1 {
+        font-size: 1rem;
+        width: 300px;
+    }
+    .mainFivetx2 {
+        font-size: 0.8rem;
+        width: 300px;
+    }
+    .volTx1 {
+        width: 50px;
+        font-size: 0.6rem;
+    }
+    .volTx2 {
+        width: 50px;
+        font-size: 0.6rem;
+    }
+    .volunteeringImg {
+        width: 180px;
+        height: 200px;
+        padding: 0px 20px;
+    }
+    .mainFiveVolunteer{
+        gap: 1%;
+    }
+    .mainFivetx3 {
+        font-size: 1rem;
+    }
+    .mainFivebutton a{
+        font-size: 0.8rem;
+    }
+    .mainFourtx1 {
+        font-size: 1rem;
+        width: 120px;
+    }
+    .mainFourtx2 {
+        font-size: 0.8rem;
+        width: 200px;
+    }
+    .mainTextthree {
+        font-size: 1rem;
+        padding: 0px 10px;
+    }
+    }
+ 
+    .homePage {
+        display: grid;
+        grid-template-areas: "header header header header header header header header header header header header"
+        "main main main main main main main main main main main main"
+        "mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree"
+        "mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour"
+        "mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
+    .servicesPage {
+        display: grid;
+        grid-template-areas: "header header header header header header header header header header header header"
+        "main main main main main main main main main main main main"
+        "mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
+    .usPage {
+        display: grid;
+        grid-template-areas: "header header header header header header header header header header header header"
+        "main main main main main main main main main main main main"
+        "mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs"
+        "mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
+    .bepartofPage {
+        display: grid;
+        grid-template-areas: "header header header header header header header header header header header header"
+        "main main main main main main main main main main main main"
+        "mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
+    .contactPage {
+        display: grid;
+        grid-template-areas: "header header header header header header header header header header header header"
+        "main main main main main main main main main main main main"
+        "mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
